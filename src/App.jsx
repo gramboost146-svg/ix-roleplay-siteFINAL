@@ -194,7 +194,7 @@ export default function App() {
           <div className="mt-10 grid max-w-2xl gap-4 sm:grid-cols-3">
             <div className="rounded-2xl border border-white/10 bg-[#151515] p-5 shadow-xl shadow-black/20">
               <p className="text-sm text-white/40">სტატუსი</p>
-              <p className="mt-2 text-2xl font-black text-[#ff7777]">მზადდება</p>
+              <p className="mt-2 text-2xl font-black text-[#4ade80]">გახსნილია</p>
             </div>
             <div className="rounded-2xl border border-white/10 bg-[#151515] p-5 shadow-xl shadow-black/20">
               <p className="text-sm text-white/40">ფორუმი</p>
@@ -269,7 +269,7 @@ export default function App() {
           </div>
           <div className="rounded-[30px] border border-white/10 bg-[radial-gradient(circle_at_80%_20%,rgba(217,54,54,.22),transparent_38%),#151515] p-7 shadow-2xl shadow-black/25">
             <p className="text-sm font-bold uppercase tracking-[0.35em] text-[#ff7777]">IX სტატუსი</p>
-            <h3 className="mt-3 text-3xl font-black">გახსნა მალე</h3>
+            <h3 className="mt-3 text-3xl font-black">გაიხსნა</h3>
             <p className="mt-4 leading-8 text-white/55">დაელოდე სიახლეებს ფორუმსა და Discord-ზე.</p>
             <Button onClick={() => goTo(discordUrl)} className="mt-6">Discord-ზე შესვლა</Button>
           </div>
